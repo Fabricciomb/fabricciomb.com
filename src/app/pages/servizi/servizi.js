@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import Services from '../servizi/serviziData';
+import Services from './serviziData.js';
 import './../../styles/servizi.css';
-import icons from './../../components/icons.js';
-import LazyBackgroundImage from './../../assets/background2.webp';
+import icons from '../../components/icons.js';
+import LazyBackgroundImage from './../../assets/service8.webp';
 
 const Servizi = () => {
   const navigate = useNavigate();

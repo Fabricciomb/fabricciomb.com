@@ -2,7 +2,7 @@
 @import '../../style.css';
 :root {
   /*Config title-page*/
-  --title-page-servizi-background-color: hsla(273, 84%, 42%, 0.95);
+  --title-page-servizi-background-color:  rgb(42, 11, 79);
   --title-page-servizi-color: white;
   --title-page-servizi-font-size-h2: 4em;
   --title-page-servizi-font-size-p: 1.5em;
