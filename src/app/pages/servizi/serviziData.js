@@ -193,7 +193,8 @@ const Services = [
         nome: 'Pacchetto annuale Base',
         destaque: [
           'Fino 5 Pagine',
-          '1 indirizzi email (2GB)',
+          '3 indirizzi email (2GB)',
+          'SSL gratuito',
           'Social buttons',
           'Fino a 3-4 Revisioni',
           'Consegna in 7 giorni'
@@ -204,7 +205,8 @@ const Services = [
         nome: 'Pacchetto annuale Silver',
         destaque: [
           'Fino 10 Pagine',
-          '2 indirizzi email (2GB)',
+          '3 indirizzi email (2GB)',
+          'SSL gratuito',
           'Formulario di contatto',
           'Catalogo prodotti / servizi',
           'Checkout con whatsapp', 
@@ -219,6 +221,7 @@ const Services = [
         destaque: [
           'Pagine illimitate',
           '3 indirizzi email (2GB)',
+          'SSL gratuito',
           'Formulario di contatto',
           'Catalogo prodotti / servizi',
           'Checkout con whatsapp',
@@ -236,7 +239,7 @@ const Services = [
     image: serviceImages['service2.webp'],
     title: 'Siti Web Dinamici',
     description: "<p>Porta la tua presenza online al livello successivo con i nostri siti web dinamici. Grazie alla nostra piattaforma avanzata, potrai creare un'esperienza coinvolgente e interattiva per i tuoi visitatori. Dalla personalizzazione dei contenuti alla gestione intuitiva, i nostri siti dinamici offrono una soluzione completa per soddisfare le esigenze del tuo business. Contattaci oggi stesso per scoprire come possiamo trasformare la tua presenza digitale.</p>",
-    description_long: "<ul><li><strong>Sito funzionale:</strong> Ci pensiamo noi in tutto, creiamo il contenuto per te.</li><li><strong>Gestione Contenuti Intuitiva:</strong> Aggiorna e gestisci facilmente il tuo sito senza dover essere un esperto di programmazione.</li><li><strong>Interattività:</strong> Dai ai tuoi utenti la possibilità di interagire con il tuo sito attraverso formulari, chat e altro ancora.</li><li><strong>Design responsivo:</strong> Assicurati che il tuo sito sia fruibile su ogni dispositivo.</li>      <li><strong>Ottimizzazione della velocità:</strong> Nessuno vuole aspettare che un sito si carichi.</li><li><strong>Ottimizzazione SEO Integrata:</strong> Assicurati che il tuo sito sia facilmente trovabile sui motori di ricerca.</li><li><strong>Analisi e Monitoraggio:</strong> Monitora le prestazioni del tuo sito e ottieni insights preziosi per migliorare continuamente la tua strategia online.</li><li><strong>Dettagli tecnici:</strong> Sviluppo del frontend e CMS WP, Backend Wordpress.</li><li><strong>Dominio e Hosting incluso:</strong> Dominio incluso (.it o .com), fino a 200.000 visite mensili, con spazio totale di 20GB, SSL gratuito, CDN gratuita, backup su richiesta e protezione DDoS aumentata.</li></ul>",
+    description_long: "<ul><li><strong>Sito funzionale:</strong> Ci pensiamo noi in tutto, creiamo il contenuto per te.</li><li><strong>Gestione Contenuti Intuitiva:</strong> Aggiorna e gestisci facilmente il tuo sito senza dover essere un esperto di programmazione.</li><li><strong>Interattività:</strong> Dai ai tuoi utenti la possibilità di interagire con il tuo sito attraverso formulari, chat e altro ancora.</li><li><strong>Design responsivo:</strong> Assicurati che il tuo sito sia fruibile su ogni dispositivo.</li>      <li><strong>Ottimizzazione della velocità:</strong> Nessuno vuole aspettare che un sito si carichi.</li><li><strong>Ottimizzazione SEO Integrata:</strong> Assicurati che il tuo sito sia facilmente trovabile sui motori di ricerca.</li><li><strong>Analisi e Monitoraggio:</strong> Monitora le prestazioni del tuo sito e ottieni insights preziosi per migliorare continuamente la tua strategia online.</li><li><strong>Dettagli tecnici:</strong> Sviluppo del frontend e Backend Wordpress.</li><li><strong>Dominio e Hosting incluso:</strong> Dominio incluso (.it o .com), fino a 200.000 visite mensili, con spazio totale di 20GB, SSL gratuito, CDN gratuita, backup su richiesta e protezione DDoS aumentata.</li></ul>",
     destaque: [],
     url: '/sviluppo-siti-web-dinamici',
     tags: ['sviluppo', 'siti-web'],
@@ -245,8 +248,10 @@ const Services = [
         nome: 'Pacchetto annuale Silver',
         destaque: [
           'Facile gestione', 
-          'Pagine illimitate', 
+          'Pagine illimitate',
+          'Chatbot (Fino a 200 chat al mese)', 
           'Blog/news', 
+          'Login con Google o Facebook',
           'Social share buttons',
           'Formulario di contatto',
           'Gestione utenti',
@@ -254,7 +259,7 @@ const Services = [
           'Fino a 5 revisioni', 
           'Consegna in 7 giorni'
           ],
-        price: 750 
+        price: 1150 
       },
       plano3: { 
         nome: 'Pacchetto annuale Premium',
@@ -280,7 +285,7 @@ const Services = [
     image: serviceImages['service15.webp'],
     title: 'Comércio eletrônico (e-commerce)',
     description: "<p>Porta la tua attività online ad un nuovo livello con i nostri sistemi di e-commerce all'avanguardia. Puoi creare un'esperienza di shopping coinvolgente e interattiva per i tuoi clienti. Dalla personalizzazione dei prodotti alla gestione semplificata degli ordini, i nostri sistemi di e-commerce offrono una soluzione completa per soddisfare le esigenze del tuo business.</p>",
-    description_long: "<ul><li><strong>Sito funzionale:</strong> Ci pensiamo noi in tutto, creiamo il contenuto per te.</li><li><strong>Gestione Contenuti Intuitiva:</strong> Aggiorna e gestisci facilmente il tuo sito senza dover essere un esperto di programmazione.</li><li><strong>Interattività:</strong> Dai ai tuoi utenti la possibilità di interagire con il tuo sito attraverso formulari, chat e altro ancora.</li><li><strong>Design responsivo:</strong> Assicurati che il tuo sito sia fruibile su ogni dispositivo.</li>      <li><strong>Ottimizzazione della velocità:</strong> Nessuno vuole aspettare che un sito si carichi.</li><li><strong>Ottimizzazione SEO Integrata:</strong> Assicurati che il tuo sito sia facilmente trovabile sui motori di ricerca.</li><li><strong>Analisi e Monitoraggio:</strong> Monitora le prestazioni del tuo sito e ottieni insights preziosi per migliorare continuamente la tua strategia online.</li><li><strong>Dettagli tecnici:</strong> Sviluppo del frontend e CMS WP, Backend Wordpress e Woocommerce.</li><li><strong>Dominio e Hosting incluso:</strong> Dominio incluso (.it o .com), fino a 200.000 visite mensili, con spazio totale di 20GB, SSL gratuito, CDN gratuita, backup su richiesta e protezione DDoS aumentata.</li></ul>",
+    description_long: "<ul><li><strong>Sito funzionale:</strong> Ci pensiamo noi in tutto, creiamo il contenuto per te.</li><li><strong>Gestione Contenuti Intuitiva:</strong> Aggiorna e gestisci facilmente il tuo sito senza dover essere un esperto di programmazione.</li><li><strong>Interattività:</strong> Dai ai tuoi utenti la possibilità di interagire con il tuo sito attraverso formulari, chat e altro ancora.</li><li><strong>Design responsivo:</strong> Assicurati che il tuo sito sia fruibile su ogni dispositivo.</li>      <li><strong>Ottimizzazione della velocità:</strong> Nessuno vuole aspettare che un sito si carichi.</li><li><strong>Ottimizzazione SEO Integrata:</strong> Assicurati che il tuo sito sia facilmente trovabile sui motori di ricerca.</li><li><strong>Analisi e Monitoraggio:</strong> Monitora le prestazioni del tuo sito e ottieni insights preziosi per migliorare continuamente la tua strategia online.</li><li><strong>Dettagli tecnici:</strong> Sviluppo del frontend e Backend Wordpress e Woocommerce.</li><li><strong>Dominio e Hosting incluso:</strong> Dominio incluso (.it o .com), fino a 200.000 visite mensili, con spazio totale di 20GB, SSL gratuito, CDN gratuita, backup su richiesta e protezione DDoS aumentata.</li></ul>",
     destaque: [],
     url: '/sviluppo-e-commerce',
     tags: ['sviluppo', 'siti-web', 'ecommerce'],

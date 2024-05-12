@@ -84,16 +84,16 @@ const Servizi = () => {
     navigate(`/servizi?category=${category}&search=${searchTerm}&modal=${selectedService ? selectedService.title : ''}`);
   };
 
-const openModal = (service) => {
-  setSelectedService(service);
-  setShowModal(true);
-  navigate(`/servizi?category=${selectedCategory}&search=${searchTerm}&modal=${service.title}`);
+  const openModal = (service) => {
+    setSelectedService(service);
+    setShowModal(true);
+    navigate(`/servizi?category=${selectedCategory}&search=${searchTerm}&modal=${service.title}`);
 
-  if (service.planos && service.planos.plano1) {
-    setSelectedPlan(service.planos.plano1);
-  }
-};
-  
+    if (service.planos && service.planos.plano1) {
+      setSelectedPlan(service.planos.plano1);
+    }
+  };
+    
 
   const closeModal = () => {
     setShowModal(false);
@@ -172,7 +172,6 @@ const openModal = (service) => {
 const addToCartWithPlan = (service, plan = null) => {
   let newItem;
   if (plan) {
-    // Se um plano for especificado, use os detalhes do plano para o item do carrinho
     newItem = {
       ...service,
       title: `${service.title} - ${plan.nome}`,
@@ -182,7 +181,6 @@ const addToCartWithPlan = (service, plan = null) => {
       roundedBorders: roundedBorders,
     };
   } else {
-    // Se nenhum plano for especificado, apenas adicione o serviço ao carrinho
     newItem = {
       ...service,
       quantity: 1,
@@ -253,9 +251,15 @@ const addToCartWithPlan = (service, plan = null) => {
     }
   };
   return (
+    
     <div className='servizi'>
       <section className='title-page-servizi' style={{backgroundImage: `url(${LazyBackgroundImage})`}}>
         <div className='container-fluid'>
+          {selectedCategory === '' && (
+            <section className='featured-products'>
+              <h2>Soluzioni</h2>
+            </section>
+          )}
           <h2>{selectedCategory}</h2>
           <p>Esplora e trova ciò che cerchi con un clic sul nostro sito, dove ogni desiderio diventa realtà!</p>
           <div className='filter'>
@@ -264,22 +268,23 @@ const addToCartWithPlan = (service, plan = null) => {
             name='searchTerm'
             placeholder='Cerca...'
             value={searchTerm}
-            onChange={(event) => handleInputChange(event, setSearchTerm)} // Modificação aqui
+            onChange={(event) => handleInputChange(event, setSearchTerm)}
           />
           <select
-            name='selectedCategory'
+            name='selectedCategory' 
             value={selectedCategory}
-            onChange={(event) => handleInputChange(event, setSelectedCategory)} // Modificação aqui
+            onChange={handleCategorySelect}
           >
-              <option value=''>Tutti</option>
-              <option value='design'>Design</option>
-              <option value='sviluppo'>Sviluppo</option>
-              <option value='marketing'>Marketing</option>
-              <option value='custom'>Custom</option>
-            </select>
+            <option value=''>Tutti</option>
+            <option value='design'>Design</option>
+            <option value='sviluppo'>Sviluppo</option>
+            <option value='marketing'>Marketing</option>
+            <option value='custom'>Custom</option>
+          </select>
           </div>
         </div>
       </section>
+
       <section className='archive-card container-fluid'>
         {Services.filter(filterServices).map((card, index) => (
           <div className='card' key={index}>
