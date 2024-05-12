@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fabricciomb.com%3E/static/css/main.a9570115.css",
-    "main.js": "/fabricciomb.com%3E/static/js/main.c6a6a7d5.js",
+    "main.js": "/fabricciomb.com%3E/static/js/main.d722ca34.js",
     "static/js/453.f376f2de.chunk.js": "/fabricciomb.com%3E/static/js/453.f376f2de.chunk.js",
     "static/media/service1.webp": "/fabricciomb.com%3E/static/media/service1.fcab7ea9203f55790fb8.webp",
     "static/media/background2.webp": "/fabricciomb.com%3E/static/media/background2.cd410be9763e1299a3f5.webp",
@@ -26,11 +26,11 @@
     "static/media/slick.woff": "/fabricciomb.com%3E/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fabricciomb.com%3E/index.html",
     "main.a9570115.css.map": "/fabricciomb.com%3E/static/css/main.a9570115.css.map",
-    "main.c6a6a7d5.js.map": "/fabricciomb.com%3E/static/js/main.c6a6a7d5.js.map",
+    "main.d722ca34.js.map": "/fabricciomb.com%3E/static/js/main.d722ca34.js.map",
     "453.f376f2de.chunk.js.map": "/fabricciomb.com%3E/static/js/453.f376f2de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9570115.css",
-    "static/js/main.c6a6a7d5.js"
+    "static/js/main.d722ca34.js"
   ]
 }
