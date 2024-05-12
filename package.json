@@ -1,7 +1,7 @@
 {
   "name": "fabricciomb.com",
   "version": "0.1.0",
-  "homepage": "https://fabricciomb.github.io/fabricciomb.com>",
+  "homepage": "https://fabricciomb.github.io/fabricciomb.com",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
