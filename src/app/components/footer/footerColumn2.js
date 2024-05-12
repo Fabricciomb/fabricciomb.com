@@ -9,8 +9,8 @@ const FooterColumn2 = () => {
         {iconComponents.whatsapp()} <span>+393517733589</span>
       </button>
 
-      <button className="footer-button" onClick={() => window.open('mailto:fabricciobm@outlook.com')} type="button">
-        {iconComponents.mail()} <span>fabricciobm@outlook.com</span>
+      <button className="footer-button" onClick={() => window.open('mailto:info@fabricciomb.com')} type="button">
+        {iconComponents.mail()} <span>info@fabricciomb.com</span>
       </button>
 
       <button className="footer-button" onClick={() => window.open('https://www.google.com/maps/place/B%C3%A9rgamo,+It%C3%A1lia/')} type="button">
