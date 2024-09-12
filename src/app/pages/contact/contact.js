@@ -15,7 +15,7 @@ const Contact = () => {
         <div className='contact-info'>
           <h2>Chiamami</h2>
           <button className="btn btn-white" onClick={() => window.open('https://api.whatsapp.com/send/?phone=393517733589&text=fabricciobm.github.io')} type="button">
-            {iconComponents.whatsapp()} <span>+393517733589</span>
+            {iconComponents.whatsapp()} <span>Whatsapp Chat</span>
           </button>
           <h2>Scrivi un'email</h2>
           <button className="btn btn-white" onClick={() => window.open('mailto:fabricciobm@outlook.com')} type="button">
